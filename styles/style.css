@@ -1,0 +1,280 @@
+.container1{
+    width: 82%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+.ctn2{
+    margin-top: 30px;
+    
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#o1{
+    display: flex;
+}
+#o1 *{
+    padding-left: 15px;
+}
+
+nav>ul {
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        
+    }
+    .container1{
+        width: 375px;
+
+    }
+    nav li{
+        margin-right: 5px;
+    }
+    
+}
+/* nav end */
+.container2{
+    
+    width: 82%;
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    
+    background-image: url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+
+}
+
+.container2{
+    display: block;
+    text-align: center;
+}
+
+.input1{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.he1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p1{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+.P2, .P3, .P4{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.P5, .p8{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+@media screen and (max-width:576px) {
+    .container2{
+        width: 335px;
+        height: 483px;
+        margin: 0 auto;
+        flex-shrink: 0;
+        background-position: center;
+    
+    }
+    .he1, .P1{
+        font-size: 22px;
+
+    }
+    .input1{
+
+        width: 287px;
+        display: block;
+        margin: 0 auto;
+
+    }
+    .input1 *{
+        margin-bottom: 10px;
+
+    } 
+    
+}
+.ctn3{
+    margin-top: 30px;
+}
+.container3{
+    width: 82%;
+    max-width: 1170px;
+    height: 551px;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*  */
+
+.p6, .p10{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.p7{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+@media screen and (max-width:576px) {
+    .container3{
+        width: 335px;
+        height: 342px;
+        margin: 0 auto;
+        display: block;  
+    
+    }
+
+    .p9 img{
+        width: 335px;
+        height: 342px;
+        margin-top: 20px;
+
+    }
+
+}
+/*  */
+.ctn4{
+    margin-top: 40px;
+}
+.container4{
+    width: 82%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+    text-align: center;
+
+}
+
+@media screen and (max-width:576px) {
+    .container4{
+        width: 335px;
+    height: 342px;
+    flex-shrink: 0;
+    }
+    .p10{
+        font-size: 20px;
+    }
+    .p7{
+        font-size: 14px;
+    }
+
+}
+
+/*  */
+.ctn5{
+    margin-top: 40px;
+}
+.container5{
+    width: 82%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container5 .row1{
+    display: flex;
+    gap:12px;
+    flex-wrap: wrap;
+    
+}
+.row1 img{
+    height: 300px;
+    width: 540px;
+    
+}
+
+.row2{
+    display: flex;
+    gap: 20px;
+}
+.i1{
+    width: 354px;
+    height: 286px;
+    flex-shrink: 0;
+}
+.i2{
+    width: 444px;
+    height: 286px;
+}
+
+.i3{
+    width: 254px;
+    height: 286px;
+}
+
+.row3{
+    display: flex;
+    gap: 10px;
+}
+.i5{
+    width: 610px;
+}
+
+@media screen and (max-width:576px) {
+    .container5{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+        display: block;
+        flex-wrap: wrap;
+    
+    }
+    
+
+}
